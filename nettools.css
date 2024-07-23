@@ -11,7 +11,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1344px;
+  max-width: 90%;
   min-width: 304px;
   padding: 0 32px
 }
@@ -82,7 +82,7 @@
 
 .table {
   margin: 20px auto;
-  width: 70%;
+  width: 80%;
   border-collapse: collapse;
 }
 
@@ -94,13 +94,13 @@
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  height: 60px
+  height: 50px
 }
 
 .table-data {  
   text-align: center;
   font-weight: bold;
-  height: 50px
+  height: 40px
 }
 
 @font-face {
