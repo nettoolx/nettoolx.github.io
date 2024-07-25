@@ -1,5 +1,5 @@
 # Net Tools
-## Computer network toolkit, providing performance analysis and troubleshooting functions such as ping, route tracking, DNS query, port scanning, whois, SNMP, MTU, IP calculation, etc. Will support Android, iOS, MacOS, and Linux systems.
+## Computer network toolkit, providing performance analysis and troubleshooting functions such as ping, route tracking, DNS query, port scanning, whois, SNMP, MTU, IP calculation, etc. It will support Android, iOS, MacOS, and Linux systems.
 1. Provides functions such as ping, tcping, traceroute (tracert), nslookup (dig), nmap, whois, etc.;
 2. Use SNNP protocol to batch monitor the traffic of each network interface of the device;
 3. Detect the maximum transmission unit (Maximum Transmission Unit) to the server;
