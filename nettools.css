@@ -68,8 +68,12 @@
   max-height: 97%;
 }
 
-.image-border {
+.image-blue-border {
   border: 2px solid blue;
+}
+
+.image-black-border {
+  border: 1px solid black;
 }
 
 .blue-text {
@@ -101,6 +105,28 @@
   text-align: center;
   font-weight: bold;
   height: 40px
+}
+
+.playstore-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.playstore-content-container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.group-image {
+  margin: 0 auto;
+  width: auto;
+  height: 200px;
+}
+
+.playstore-image {
+  margin: 0 auto;
+  width: auto;
+  height: 600px;
 }
 
 @font-face {
