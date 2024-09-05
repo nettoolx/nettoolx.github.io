@@ -1,1 +1,1 @@
-nettools
+only macOS
