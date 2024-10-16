@@ -108,6 +108,10 @@
   width: auto;
   height: 600px;
 }
+.code {
+  background-color: #e0e0e0;
+  padding: 2px 10px;
+}
 @font-face {
     font-family: X-LocaleSpecific;
     font-weight: normal;
