@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Net Tools</title>
+        <meta name="description" content="下载适用于 Android、 iOS、MacOS 和 Linux 的 Nettools。Nettools 一款免费的网络检测工具">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="app.png">
+        <link rel="icon" type="image/png" sizes="196x196" href="app.png">
+        <link rel="shortcut icon" href="app.png">
+        <link href="nettools.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="playstore-container">
+            <br>
+            <br>
+            <center><h2>DMG 安装说明</h2></center>
+            <br>
+            <h5>MacOS 电脑默认不允许运行和安装从网上下载的 APP，所以需要进行设置，否则会出现文件损坏等告警且无法运行 APP。</h5>
+            <h5>采用如下任一方法即可。</h5>
+            <br>
+            <h5>方法一、打开 MacOS “任何来源”选项</h5>
+            <h5>1、对于 MacOS 15 系统，打开 系统设置 – 隐私与安全性 – 安全性，选择“任何来源”；</h5>
+            <h5>2、对于 MacOS 14 及以下系统：</h5>
+            <h5>1）运行 sudo spctl --master-disable ，然后输入用户密码；</h5>
+            <h5>2）打开 系统偏好设置 – 安全性与隐私 – 通用 – 允许从以下位置下载的App：，选择“任何来源”。</h5>
+            <h5>然后双击 nettools.dmg 文件即可安装和运行。</h5>
+            <br>
+            <h5>方法二、手工建立 APP</h5>
+            <h5>1、双击 nettools.dmg，加载 nettools 磁盘映像；</h5>
+            <h5>2、在任意目录（以 home 目录为例），创建 nettools.app 目录：</h5>
+            <h5><span class="code"> mkdir ~/nettools.app </span></h5>
+            <h5>3、将 nettools 磁盘映像中 APP 的内容拷贝到该目录：</h5>
+            <h5><span class="code"> cp -r /Volumes/nettools/nettools.app/Contents ~/nettools.app </span></h5>
+            <h5>4、双击该 APP 即可运行。</h5>
+            <br>
+            <hr>
+            <center><a href="http://www.nettools.top"><h5>回到主页</h5></a></center>
+        </div>
+    </body>
+</html>
