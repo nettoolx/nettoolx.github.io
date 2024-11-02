@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Net Tools</title>
+        <meta name="description" content="Download Nettools for Android, iOS, MacOS and Linux. Nettools is a free network diagnostic tool">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="app.png">
+        <link rel="icon" type="image/png" sizes="196x196" href="app.png">
+        <link rel="shortcut icon" href="app.png">
+        <link href="nettools.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="playstore-container">
+            <br>
+            <br>
+            <center><h2>DMG Installation Instructions</h2></center>
+            <br>
+            <h5>By default, MacOS does not allow the running and installation of apps downloaded from the internet, so settings need to be made to prevent alerts such as file corruption and inability to run apps.</h5>
+            <h5>Any of the following methods can be used.</h5>
+            <br>
+            <h5>Method 1: Open the "Any Source" option on MacOS</h5>
+            <h5>1. For MacOS 15 system, open System Settings - Privacy and Security - Security, select "Any Source";</h5>
+            <h5>2. For MacOS 14 and below systems:</h5>
+            <h5>1) Run sudo spctrl -- master disable, and then enter the password;</h5>
+            <h5>2) Open System Preferences - Security and Privacy - General - Allow apps to be downloaded from the following locations:, select 'Any Source'.</h5>
+            <h5>Then double-click the nettools.dmg file to install and run.</h5>
+            <br>
+            <h5>Method 2: Manually creating an APP</h5>
+            <h5>1. Double click nettools.dmg to load the nettools disk image;</h5>
+            <h5>In any directory (taking the home directory as an example), create the nettools. app directory:</h5>
+            <h5><span class="code"> mkdir ~/nettools.app </span></h5>
+            <h5>3. Copy the contents of the APP from the nettools disk image to this directory:</h5>
+            <h5><span class="code"> cp -r /Volumes/nettools/nettools.app/Contents ~/nettools.app </span></h5>
+            <h5>4. Double click on the app to run.</h5>
+            <br>
+            <hr>
+            <center><a href="http://www.nettools.top"><h5>Return to homepage</h5></a></center>
+        </div>
+    </body>
+</html>
