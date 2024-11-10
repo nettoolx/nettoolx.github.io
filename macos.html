@@ -16,23 +16,23 @@
             <br>
             <center><h2>DMG Installation Instructions</h2></center>
             <br>
-            <h5>By default, MacOS does not allow the running and installation of apps downloaded from the internet, so settings need to be made to prevent alerts such as file corruption and inability to run apps.</h5>
-            <h5>Any of the following methods can be used.</h5>
+            <h5>By default, macOS computers do not allow running and installing apps downloaded from the internet, so you’ll need to adjust the settings; otherwise, warnings such as "File damaged" may appear, and the app won't run.</h5>
+            <h5>You can choose either of the following methods.</h5>
             <br>
-            <h5>Method 1: Open the "Any Source" option on MacOS</h5>
-            <h5>1. For MacOS 15 system, open System Settings - Privacy and Security - Security, select "Any Source";</h5>
-            <h5>2. For MacOS 14 and below systems:</h5>
-            <h5>1) Run <span class="code"> sudo spctrl -- master disable </span>, and then enter the password;</h5>
-            <h5>2) Open System Preferences - Security and Privacy - General - Allow apps to be downloaded from the following locations:, select 'Any Source'.</h5>
-            <h5>Then double-click the nettools.dmg file to install and run.</h5>
+            <h5>Method 1: Enable the “Allow from Anywhere” Option in macOS</h5>
+            <h5>1. For macOS 15: Go to System Settings > Privacy & Security > Security, and select “Allow from Anywhere.”</h5>
+            <h5>2. For macOS 14 and below:</h5>
+            <h5>1) Run <span class="code"> sudo spctrl -- master disable </span>in the terminal, and then enter your password;</h5>
+            <h5>2) Go to System Preferences > Security & Privacy > Security, and select “Allow applications downloaded from: Anywhere.”</h5>
+            <h5>3. Open nettools.dmg, drag nettools to the Applications folder, and then double-click to run nettools.</h5>
             <br>
-            <h5>Method 2: Manually creating an APP</h5>
-            <h5>1. Double click nettools.dmg to load the nettools disk image;</h5>
-            <h5>In any directory (taking the home directory as an example), create the nettools. app directory:</h5>
+            <h5>Method 2: Manually Create the App</h5>
+            <h5>1. Double-click nettools.dmg to load the nettools disk image;</h5>
+            <h5>2. In any directory (using the home directory as an example), create a nettools.app folder:</h5>
             <h5><span class="code"> mkdir ~/nettools.app </span></h5>
-            <h5>3. Copy the contents of the APP from the nettools disk image to this directory:</h5>
+            <h5>3. Copy the contents of the app from the nettools disk image to this directory:</h5>
             <h5><span class="code"> cp -r /Volumes/nettools/nettools.app/Contents ~/nettools.app </span></h5>
-            <h5>4. Double click on the app to run.</h5>
+            <h5>4. Double-click the app to run it.</h5>
             <br>
             <hr>
             <center><a href="http://www.nettools.top"><h5>Return to homepage</h5></a></center>
